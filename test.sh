@@ -5,4 +5,10 @@
 # Canon IT Solutions Inc. 2013.01.24
 ##
 
-echo "test"
+if [ -f "test" ]; then
+  echo "test is exist."
+else
+  echo "test is not exist."
+fi
+
+exit 0
